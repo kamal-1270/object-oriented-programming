@@ -6,10 +6,10 @@ public class EmployeeManagementSystem {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<>();
         
-        FullTimeEmployee emp1 = new FullTimeEmployee(101, "Alice", 50000, 70000);
+        FullTimeEmployee emp1 = new FullTimeEmployee(101, "Vicky", 50000, 70000);
         emp1.assignDepartment("HR");
         
-        PartTimeEmployee emp2 = new PartTimeEmployee(102, "Bob", 20000, 20, 500);
+        PartTimeEmployee emp2 = new PartTimeEmployee(102, "Deepak", 20000, 20, 500);
         emp2.assignDepartment("IT");
         
         employees.add(emp1);

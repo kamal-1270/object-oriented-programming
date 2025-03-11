@@ -6,8 +6,8 @@ public class HospitalManagementSystem {
     public static void main(String[] args) {
         List<Patient> patients = new ArrayList<>();
         
-        InPatient inpatient = new InPatient("P001", "John Doe", 45, 2000, 5);
-        OutPatient outpatient = new OutPatient("P002", "Jane Smith", 30, 500);
+        InPatient inpatient = new InPatient("P001", "Aman", 45, 2000, 5);
+        OutPatient outpatient = new OutPatient("P002", "vicky", 30, 500);
         
         inpatient.addRecord("Blood Test: Normal");
         inpatient.addRecord("X-Ray: No issues");
